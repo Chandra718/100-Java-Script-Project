@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 11 | Video Trailer Popup</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <img src="./images.jpeg" alt="movie-image" />
+      <h1>Interstellar</h1>
+      <p>
+        Interstellar is praised forBlending epic science fiction with a deeply
+        personal, emotional story about family, particularly a father-daughter
+        bond, grounded by scientific concepts like relativity and black holes,
+        stunning visuals, and Hans Zimmer's iconic score, creating a rich,
+        thought-provoking experience that explores love transcending time and
+        space.. Its impact comes from balancing grand cosmic themes with
+        relatable human stakes, making viewers care deeply about the characters'
+        survival and connection
+      </p>
+      <button class="btn">Watch now</button>
+    </div>
+    <div class="trailer-container active">
+      <video src="./Interstellar.mp4" controls="true"></video>
+      <i class="fas fa-times fa-2x close-icon"></i>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
